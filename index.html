@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DL Group | Apps and business systems</title>
+<link rel="icon" type="image/svg+xml" href="logo/dl-group-mark.svg">
+<meta name="description"content="DL Group designs and builds mobile apps, web platforms and workflow systems for teams that work in the field.">
+<style>
+  :root {
+    --bg: #fbfbfa; --ink: #14181f; --mute: #5b6472; --line: #e3e5e8;
+    --accent: #2a5bd7; --card: #ffffff; --soft: #f1f3f6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0f1218; --ink: #eef0f3; --mute: #9aa3b0; --line: #262b35; --accent: #7aa2ff; --card: #151a22; --soft: #171c25; }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  a { color: inherit; }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
+  header { border-bottom: 1px solid var(--line); }
+  header .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+  .logo { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 19px; letter-spacing: .01em; text-decoration: none; }
+  .logo img { display: block; }
+  .logo .name { font-weight: 400; letter-spacing: .04em; }
+  .logo .name b { font-weight: 800; }
+  nav a { margin-left: 22px; text-decoration: none; color: var(--mute); font-size: 15px; }
+  nav a:hover { color: var(--ink); }
+  .hero { padding: 88px 0 72px; }
+  .eyebrow { color: var(--accent); font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; margin: 0 0 14px; }
+  h1 { font-size: clamp(34px, 6vw, 56px); line-height: 1.08; margin: 0 0 20px; max-width: 16ch; letter-spacing: -.02em; }
+  .lead { font-size: 19px; color: var(--mute); max-width: 56ch; margin: 0 0 30px; }
+  .btn { display: inline-block; background: var(--accent); color: #fff; padding: 12px 22px; border-radius: 8px; text-decoration: none; font-weight: 600; }
+  @media (prefers-color-scheme: dark) { .btn { color: #0f1218; } }
+  section { padding: 64px 0; border-top: 1px solid var(--line); }
+  h2 { font-size: 28px; margin: 0 0 8px; letter-spacing: -.01em; }
+  .sub { color: var(--mute); margin: 0 0 32px; max-width: 60ch; }
+  .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 22px; }
+  h3.group { font-size: 15px; letter-spacing: .08em; text-transform: uppercase; color: var(--mute); margin: 28px 0 14px; }
+  .card h3 { margin: 0 0 8px; font-size: 18px; }
+  .card p { margin: 0; color: var(--mute); font-size: 15px; }
+  .steps { counter-reset: s; display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+  .step { background: var(--soft); border-radius: 12px; padding: 22px; }
+  .step::before { counter-increment: s; content: counter(s); display: inline-grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; background: var(--accent); color: #fff; font-weight: 700; font-size: 14px; margin-bottom: 12px; }
+  @media (prefers-color-scheme: dark) { .step::before { color: #0f1218; } }
+  .step h3 { margin: 0 0 6px; font-size: 17px; }
+  .step p { margin: 0; color: var(--mute); font-size: 15px; }
+  .contact { background: var(--soft); border-radius: 14px; padding: 32px; }
+  .contact a.mail { font-size: 22px; font-weight: 700; color: var(--accent); text-decoration: none; }
+  footer { border-top: 1px solid var(--line); padding: 28px 0; color: var(--mute); font-size: 14px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a class="logo" href="#top"><img src="logo/dl-group-mark.svg" alt="" width="36" height="30"><span class="name"><b>DL</b> GROUP</span></a>
+    <nav><a href="#services">Services</a><a href="#products">Our platform</a><a href="#process">Process</a><a href="#contact">Contact</a></nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="wrap hero">
+    <p class="eyebrow">Apps and business systems for small business</p>
+    <h1>Bookings that run themselves.</h1>
+    <p class="lead">DL Group builds practical software for small businesses. Our booking system and mobile app handle the booking, the confirmation, the check-in and the sign-off, so nothing depends on phone calls, spreadsheets or paper.</p>
+    <a class="btn" href="#contact">Talk to us</a>
+  </div>
+
+  <section id="services">
+    <div class="wrap">
+      <h2>Services</h2>
+      <p class="sub">From a single workflow to a full operations platform, built to fit how your team already works.</p>
+      <div class="grid">
+        <div class="card"><h3>Mobile apps</h3><p>iOS and Android apps for check-in, shifts, checklists and photo capture, designed for use on site with patchy reception.</p></div>
+        <div class="card"><h3>Web platforms</h3><p>Dashboards and admin tools that give managers a live view of work, approvals and reporting.</p></div>
+        <div class="card"><h3>Workflow automation</h3><p>Reminders, approvals and hand-offs that run on their own, so routine admin stops landing on your desk.</p></div>
+        <div class="card"><h3>Digital documents and e-signature</h3><p>Send a document, collect a secure sign-off from a link and keep a clear record of who approved what and when.</p></div>
+        <div class="card"><h3>Integrations</h3><p>Connect your systems to accounting and payroll tools so data is entered once and flows where it needs to go.</p></div>
+        <div class="card"><h3>Document reading</h3><p>Turn photos and scans of forms into structured data, with checks that flag anything that needs a human look.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="products">
+    <div class="wrap">
+      <h2>Our platform</h2>
+      <p class="sub">Our main product is a booking system for organisations that schedule people on jobs, with a mobile app for the people doing the work.</p>
+      <h3 class="group">The booking system</h3>
+      <div class="grid">
+        <div class="card"><h3>Create and manage bookings</h3><p>Record each booking with its site, dates, roles and requirements, and see everything in one place.</p></div>
+        <div class="card"><h3>Assign and confirm</h3><p>Assign people to bookings and have them confirm shifts in the app, so you know who is turning up.</p></div>
+        <div class="card"><h3>Timesheets and sign-off</h3><p>Hours are recorded against each booking and approved with a secure signature, with a clear record of what was signed and when.</p></div>
+        <div class="card"><h3>Invoicing</h3><p>Approved timesheets feed into your accounting software so invoices are prepared accurately and on time.</p></div>
+      </div>
+      <h3 class="group">The mobile app</h3>
+      <div class="grid">
+        <div class="card"><h3>Jobs and shifts</h3><p>A simple list of upcoming jobs with the site, time and details, and one tap to confirm.</p></div>
+        <div class="card"><h3>Check-in by location</h3><p>Check in when you arrive on site, with the location recorded for an accurate start time.</p></div>
+        <div class="card"><h3>Timesheets on the phone</h3><p>Fill in the day, collect a signature on the screen and submit, with drafts saved if the connection drops.</p></div>
+        <div class="card"><h3>Invoices and onboarding</h3><p>View invoices and complete sign-up and onboarding from the same app, secured with a PIN.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="process">
+    <div class="wrap">
+      <h2>How we work</h2>
+      <p class="sub">Short cycles, plain language, and something working early.</p>
+      <div class="steps">
+        <div class="step"><h3>Understand</h3><p>We map how the work happens today and where time is lost.</p></div>
+        <div class="step"><h3>Design</h3><p>A simple flow you can click through before anything is built.</p></div>
+        <div class="step"><h3>Build</h3><p>We deliver in small releases so you can use it and give feedback early.</p></div>
+        <div class="step"><h3>Support</h3><p>We keep it running, fix issues quickly and add what you need next.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="contact">
+        <h2>Contact</h2>
+        <p class="sub">Tell us what you want to improve and we will reply within one business day.</p>
+        <a class="mail" href="mailto:hello@dlgroup.app">hello@dlgroup.app</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">&copy; 2026 DL Group. All rights reserved.</div>
+</footer>
+</body>
+</html>

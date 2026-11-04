@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 376 314" role="img" aria-label="DL Group">
+  <style>
+    .m { fill: #2a5bd7; }
+    @media (prefers-color-scheme: dark) { .m { fill: #7aa2ff; } }
+  </style>
+  <polygon class="m" points="5,5 80,5 80,232 201,232 247,309 5,309"/>
+  <polygon class="m" points="126,5 281,5 371,156 290,293 246,218 282,156 237,80 126,80"/>
+</svg>
